@@ -1,0 +1,319 @@
+/* COLOR
+
+Primary 
+ - Very Dark Blue: #060339
+ - Desaturated Blue: #575988
+
+Accent
+ - Bright Blue: #3065F7
+ - Moderate Cyan: #3C9E8E
+
+Neutral
+ - Light Grayish Blue: #F6F6FD
+ - Light Gray: #BFBEBE
+
+
+TYPOGRAPHY
+
+Body Copy
+ - Font size (paragrapgh): 16px/1rem
+
+Fonts 
+ Headings, Call-to-actions, Header Navigation
+ - Famliy: Raleway
+ - Weights: 400,700 
+ 
+Body
+ - Family: Open Sans
+ - Weights: 400
+ 
+ */
+
+/* Temporary Styling */
+
+/* -------------------------- */
+
+/* Current Styling */
+/* Scrollbar */
+
+/* Universal styling */
+.e-mail-box {
+  height: 3rem;
+  padding: 1rem;
+  margin: 0;
+  border-radius: 3px;
+  border: none;
+}
+
+.e-mail-box:focus-visible {
+  outline: none;
+}
+
+.box-shadow {
+  box-shadow: 0 0 20px 0 rgb(229, 226, 226);
+}
+
+.hide {
+  display: none;
+}
+
+.error-box {
+  border: 2px solid red !important;
+}
+
+.error-msg {
+  margin: 0.5rem 0 0 0;
+  font-size: small;
+}
+
+.btn {
+  background-color: #3065f7;
+  color: #f6f6fd;
+  padding: 1rem 3rem;
+  cursor: pointer;
+  border-radius: 3px;
+  font-family: raleway;
+  font-weight: 700;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #6b91f9;
+}
+
+.illustration {
+  height: 450px;
+  width: 650px;
+}
+
+.h1-style {
+  font-family: raleway;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+}
+
+/* Fonts */
+@font-face {
+  font-family: "raleway";
+  src: url(/fonts/Raleway/Raleway-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: "opensans";
+  src: url(/fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: opensans;
+  font-weight: 400;
+  color: #060339;
+}
+
+/* Styling Nav Bar */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 5rem;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  cursor: pointer;
+}
+
+nav li {
+  margin-left: 3rem;
+}
+
+/* Section 1 */
+
+.section-1 {
+  display: flex;
+  padding: 2rem 5rem;
+}
+
+.section-1 p :nth-child(1) {
+  font-size: large;
+  font-weight: 400;
+  width: 35rem;
+}
+
+.section-1 input {
+  border: 1px solid #060339;
+  width: 20rem;
+}
+
+.section-1 form {
+  display: inline-block;
+  margin: 1rem 0 0;
+}
+
+.section-1 .btn {
+  margin: 0.8rem 0.8rem 0 0.8rem;
+}
+
+.section-1 .error {
+  color: red;
+  margin-top: 0.1rem;
+}
+
+/* Section 2 */
+
+.section-2 {
+  display: flex;
+  padding: 5rem;
+  background-image: url(/images/bg-curve-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.section-2 a {
+  color: #3c9e8e;
+  display: inline-block;
+}
+
+.section-2 .illustration {
+  width: 540px;
+}
+
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  height: 13rem;
+  width: 25rem;
+  padding: 2rem;
+  justify-content: center;
+  align-items: start;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+  border-radius: 5px;
+  margin-top: 2.5rem;
+}
+
+.testimonial img {
+  width: 1rem;
+}
+
+.client {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.client img {
+  height: 35px;
+  width: 35px;
+  border-radius: 100%;
+  margin: 0 1rem 0 0;
+}
+
+.client-name p:nth-child(1) {
+  font-weight: bold;
+  font-size: smaller;
+}
+
+.client-name p {
+  margin: 0;
+  font-size: x-small;
+}
+
+/* Styling Sign Up Section */
+
+.sign-up-sec {
+  display: flex;
+  padding: 5rem;
+  background-color: #575988;
+  align-items: center;
+  justify-content: start;
+  color: #f6f6fd;
+  font-family: raleway;
+  font-weight: 400;
+}
+
+.sign-up-msg h1 {
+  font-weight: 700;
+  font-size: xx-large;
+}
+
+.sign-up-msg {
+  width: 40%;
+}
+
+.email-sec {
+  margin: auto;
+  margin-right: 3rem;
+}
+
+.email-sec input {
+  display: block;
+  width: 30rem;
+}
+
+.email-sec .btn {
+  margin-top: 1rem;
+}
+
+/* Styling Footer */
+
+footer {
+  background-color: #060339;
+  color: #f6f6fd;
+  padding: 6.5rem 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo2 {
+  margin: 1.5rem 0;
+}
+
+.contact-div div {
+  display: flex;
+  align-items: center;
+  padding: 0.8rem;
+}
+
+.contact-div p {
+  margin: 0 1rem;
+}
+
+footer li {
+  list-style: none;
+  margin: 1rem 0;
+}
+
+footer li:hover {
+  color: #575988;
+  cursor: pointer;
+}
+
+.social-media-handle {
+  display: flex;
+  align-items: center;
+}
+
+.social-media-handle svg {
+  margin: 0 0.8rem;
+  height: 1.5rem;
+  width: 1.5rem;
+  color: #f6f6fd;
+  cursor: pointer;
+}
+
+.social-media-handle :hover {
+  color: #575988;
+}
+
+.social-media-handle svg:nth-child(2) {
+  height: 1.8rem;
+  width: 1.8rem;
+}
