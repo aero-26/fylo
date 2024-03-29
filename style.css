@@ -29,9 +29,8 @@ Body
  
  */
 
-/* Temporary Styling */
-
 /* -------------------------- */
+
 /* Fonts */
 @font-face {
   font-family: "raleway";
@@ -42,8 +41,29 @@ Body
   src: url(fonts/Open_Sans/OpenSans-VariableFont_wdth_wght.ttf);
 }
 
-/* Current Styling */
 /* Scrollbar */
+
+/* width */
+::-webkit-scrollbar {
+  width: 0.6rem;
+}
+
+/* track */
+::-webkit-scrollbar-track {
+  background-color: #bfbebe;
+}
+
+/* handle */
+::-webkit-scrollbar-thumb {
+  background-color: #060339;
+}
+
+/* hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #575988;
+}
+
+/* --------------------------------- */
 
 /* Universal styling */
 .e-mail-box {
