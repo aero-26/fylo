@@ -170,7 +170,8 @@ nav li {
   padding: 5rem;
   background-image: url(images/bg-curve-desktop.svg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 300% 100%;
+  background-position: center;
 }
 
 .section-2 a {
