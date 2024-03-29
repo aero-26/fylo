@@ -32,6 +32,15 @@ Body
 /* Temporary Styling */
 
 /* -------------------------- */
+/* Fonts */
+@font-face {
+  font-family: "raleway";
+  src: url(/fonts/Raleway/Raleway-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: "opensans";
+  src: url(/fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
 
 /* Current Styling */
 /* Scrollbar */
@@ -91,16 +100,6 @@ Body
   font-weight: 700;
   font-size: 2.5rem;
   line-height: 3.5rem;
-}
-
-/* Fonts */
-@font-face {
-  font-family: "raleway";
-  src: url(/fonts/Raleway/Raleway-VariableFont_wght.ttf);
-}
-@font-face {
-  font-family: "opensans";
-  src: url(/fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
 }
 
 * {
