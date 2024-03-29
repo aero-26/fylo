@@ -183,11 +183,22 @@ nav li {
 .section-2 a {
   color: #3c9e8e;
   display: inline-block;
+  align-items: center;
   font-size: large;
   text-decoration: none;
 }
 
+.section-2 .link:hover,
+a:hover {
+  color: #47eacf;
+}
+
+.section-2 .link:hover {
+  border-bottom: 2px solid #47eacf;
+}
+
 .section-2 .link {
+  color: #3c9e8e;
   display: flex;
   align-items: center;
   justify-content: start;
@@ -196,8 +207,8 @@ nav li {
   width: fit-content;
 }
 
-.section-2 .link img {
-  margin-left: 0.3rem;
+.section-2 .link svg {
+  padding-top: 0.12rem;
 }
 
 .testimonial {
