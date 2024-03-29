@@ -167,20 +167,37 @@ nav li {
 
 .section-2 {
   display: flex;
-  padding: 5rem;
+  padding: 10rem 5rem;
   background-image: url(images/bg-curve-desktop.svg);
   background-repeat: no-repeat;
   background-size: 300% 100%;
   background-position: center;
 }
 
+.section-2 .p1,
+.p2 {
+  width: 35rem;
+  font-size: large;
+}
+
 .section-2 a {
   color: #3c9e8e;
   display: inline-block;
+  font-size: large;
+  text-decoration: none;
 }
 
-.section-2 .illustration {
-  width: 540px;
+.section-2 .link {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  border-bottom: 2px solid #3c9e8e;
+  padding: 0.2rem 0;
+  width: fit-content;
+}
+
+.section-2 .link img {
+  margin-left: 0.3rem;
 }
 
 .testimonial {
