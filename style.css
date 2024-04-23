@@ -138,6 +138,7 @@ body {
 nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 5rem;
 }
 nav ul {
@@ -156,6 +157,7 @@ nav li {
 .section-1 {
   display: flex;
   padding: 2rem 5rem;
+  align-items: center;
 }
 
 .section-1 p :nth-child(1) {
@@ -192,6 +194,7 @@ nav li {
   background-repeat: no-repeat;
   background-size: 300% 100%;
   background-position: center;
+  align-items: center;
 }
 
 .section-2 .p1,
