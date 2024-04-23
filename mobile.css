@@ -223,7 +223,7 @@
 
 @media screen and (max-width: 480px) {
   nav ul li {
-    margin-left: 0.5rem;
+    margin-left: 1rem;
   }
   .illustration {
     height: 200px;
@@ -241,7 +241,7 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 435px) {
   nav ul li {
     margin-left: 1rem;
   }
