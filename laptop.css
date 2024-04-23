@@ -99,10 +99,23 @@
   .section-1 .btn {
     display: block;
     margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
   }
+
   .section-2 .p1,
   .p2 {
     width: 25rem;
+  }
+
+  .section-1 .contact-sec {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-1 .contact-sec .btn {
+    order: 3;
+    width: 10rem;
   }
 }
 
