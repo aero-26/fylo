@@ -347,7 +347,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 325px) {
   footer p {
     font-size: small;
   }
