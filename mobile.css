@@ -219,6 +219,10 @@
   .section-2 .p2 {
     margin-left: 2px;
   }
+
+  .section-2 .testimonial {
+    width: 25rem;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -236,8 +240,24 @@
     width: 20rem;
     font-size: 1rem;
   }
+
+  .section-1 p,
+  .section-2 .p1,
+  .section-2 .p2 {
+    font-size: larger;
+  }
+
   .section-2 .testimonial {
-    width: 21.87rem;
+    width: 20rem;
+  }
+
+  .section-2 h1 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .section-2 a {
+    font-size: large;
   }
 }
 
@@ -251,6 +271,78 @@
   }
 
   .logo {
-    width: 8rem;
+    width: 6rem;
+  }
+
+  .h1-style {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+
+  .sign-up-msg h1 {
+    font-size: x-large;
+  }
+
+  .sign-up-sec p {
+    font-size: large;
+  }
+}
+
+@media screen and (max-width: 365px) {
+  .btn,
+  .section-1 .contact-sec .btn,
+  .email-sec input,
+  .section-1 input {
+    width: 18rem;
+    font-size: 1rem;
+  }
+
+  .logo {
+    width: 5rem;
+  }
+  .h1-style {
+    font-size: 1.8rem;
+    line-height: 3rem;
+  }
+
+  .section-1 p,
+  .section-2 .p1,
+  .section-2 .p2 {
+    font-size: large;
+  }
+
+  footer p {
+    font-size: medium;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .btn,
+  .section-1 .contact-sec .btn,
+  .email-sec input,
+  .section-1 input {
+    width: 15rem;
+    font-size: 0.8rem;
+  }
+
+  nav ul li {
+    font-size: 0.8rem;
+  }
+
+  .h1-style {
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+  }
+
+  .section-2 h1 {
+    font-size: 1.4rem;
+  }
+
+  .section-2 .testimonial {
+    width: 18rem;
+  }
+
+  .section-2 .testimonial p {
+    font-size: 1rem;
   }
 }
